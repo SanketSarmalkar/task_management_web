@@ -1,7 +1,7 @@
-export default function TasksPage(){
+import { TasksList } from "../components/tasksList"
+
+export function TasksPage(){
     return (
-        <div>
-        <h1 style={{color: "#202020"}}>Task</h1>Tasks Page
-        </div>
+        <TasksList />
     )
 }
